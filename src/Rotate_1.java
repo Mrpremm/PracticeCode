@@ -1,3 +1,6 @@
+//Brute force
+// taking extra space
+
 public class Rotate_1 {
 
     public static void main(String[] args){
@@ -8,6 +11,7 @@ public class Rotate_1 {
 
     }
     static void rotate(int [] arr,int d, int n){
+        d=d%n;
         int  [] temp=new int[d];
         for(int i=0;i<d;i++){
             temp[i]=arr[i];
