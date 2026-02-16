@@ -6,17 +6,34 @@ public class ConsecutiveOnes {
         int res=maxCount(arr);
         System.out.println(res);
     }
-    static int maxCount(int [] arr){
-        int count=0,max=0;
-        for(int i=0;i<arr.length;i++){
+    static  int maxCount(int [] arr){
+        int n=arr.length;
+        int max=0;
+        int cnt=0;
+        for(int i=0;i<n;i++){
             if(arr[i]==1){
-                count=count+1;
-                if(max<count) max=max+1;
-            }
-            else{
-                count=0;
+                cnt++;
+            }else {
+                max=Math.max(max,cnt);
+                cnt=0;
             }
         }
+        max=Math.max(max,cnt);
         return max;
+
+
     }
+//    static int maxCount(int [] arr){
+//        int count=0,max=0;
+//        for(int i=0;i<arr.length;i++){
+//            if(arr[i]==1){
+//                count=count+1;
+//                if(max<count) max=max+1;
+//            }
+//            else{
+//                count=0;
+//            }
+//        }
+//        return max;
+//    }
 }
