@@ -30,6 +30,7 @@ public class MovesZero {
                 break;
             }
         }
+
         if(j==-1){
             return;
         }
