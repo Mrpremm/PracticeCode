@@ -1,4 +1,4 @@
-//Union-Optimal Solution
+package Array;//Array.Union-Optimal Solution
 import java.util.*;
 public class Union {
     public static void main(String[] args){

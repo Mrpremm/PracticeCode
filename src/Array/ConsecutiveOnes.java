@@ -1,4 +1,4 @@
-//Count Maximum Consecutive One's in the array
+package Array;//Count Maximum Consecutive One's in the array
 
 public class ConsecutiveOnes {
     public static void main(String[] args){

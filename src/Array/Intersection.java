@@ -1,4 +1,4 @@
-//Optimal Solution -2 pointer in intersection between 2 sorted array
+package Array;//Optimal Solution -2 pointer in intersection between 2 sorted array
 import java.util.*;
 
 public class Intersection {

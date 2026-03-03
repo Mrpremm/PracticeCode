@@ -1,4 +1,4 @@
-// Better Solution Using HashMap
+package Array;// Better Solution Using HashMap
 import java.util.*;
 public class twosum01 {
     public  static void main(String[] args){

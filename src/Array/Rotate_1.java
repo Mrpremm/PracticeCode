@@ -1,4 +1,4 @@
-//Brute force
+package Array;//Brute force
 // taking extra space
 
 public class Rotate_1 {

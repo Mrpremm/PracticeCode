@@ -1,3 +1,5 @@
+package Array;
+
 //optimal Solution
 public class MovesZero {
     public static  void main(String[] args){

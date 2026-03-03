@@ -1,4 +1,4 @@
-// Left Rotate by one place
+package Array;// Left Array.Rotate by one place
 
 public class Rotate {
     public static void main(String[] args){

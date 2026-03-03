@@ -1,3 +1,5 @@
+package Array;
+
 import java.util.*;
 public class StringRev {
     public static void main(String[] args){
