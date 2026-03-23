@@ -11,7 +11,7 @@ public class Triplet {
     }
     static void solve(int[] arr){
         Arrays.sort(arr);
-        List<List<Integer>> list=new ArrayList<>();
+        List<   List<Integer>> list=new ArrayList<>();
         int n=arr.length;
         for(int i=0;i<n-2;i++){
             if(i>0&&arr[i]==arr[i-1]) continue;

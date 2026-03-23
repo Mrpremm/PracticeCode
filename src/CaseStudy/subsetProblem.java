@@ -1,4 +1,28 @@
-package CaseStudy;
+//A distributed computing grid contains N processing units. Each unit consumes resources represented
+//by array arr[].
+//You must determine whether it is possible to partition the array into two subsets such that the sum
+//of elements in both subsets is equal.
+//        Return:
+//        • 1 if such a partition exists
+//• 0 otherwise
+//Constraints:
+//        • 1 ≤ N ≤ 100
+//        • 1 ≤ arr[i] ≤ 1000
+//        • N × sum(arr[i]) ≤ 5 × 10^6
+//Test Cases
+//Input
+//        N = 4
+//arr = [1, 5, 11, 5]
+//Output
+//1
+//Input
+//        N = 3
+//arr = [1, 3, 5]
+//Output
+//0
+
+
+        package CaseStudy;
 
 public class subsetProblem {
     public static void main(String[] args) {
