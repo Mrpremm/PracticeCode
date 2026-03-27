@@ -1,3 +1,14 @@
+//import java.lang.annotation.Target;
+//
+//What are Subarrays with a given Sum?
+//Let’s understand the concept of subarray with Examples:
+//arr[] = [ 3, 4 , -7, 1, 3, 3, 1, -4]
+//Target value = 7
+//Subarray with sum equals to:
+//        7 + 4 = 7 → so [3,4] is a valid subarray
+//3 + 4 - 7 + 1 + 3 + 3 = 7 → so [3,4,-7,1,3,3] is also valid subarray
+//1 + 3 + 3 = 7 → so [1,3,3], also a valid answer.
+//        3 + 3 + 1 = 7 → so [3,3,1] also a valid subarray
 package Array;
 
 public class subarraybrute {
