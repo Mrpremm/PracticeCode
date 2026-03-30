@@ -4,6 +4,7 @@ public class Rotate {
     public static void main(String[] args){
         int[] arr={1,2,3,4,5};
         rotate(arr);
+
     }
     static void rotate(int []arr){
         int temp=arr[0];
